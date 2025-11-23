@@ -76,7 +76,7 @@ void render_menu_screen(GameContext* game) {
     game->button_infinite = (SDL_Rect){cx - btn_w/2, cy,      btn_w, btn_h};
     game->button_about    = (SDL_Rect){cx - btn_w/2, cy + 60, btn_w, btn_h};
 
-    render_text_simple(game->renderer, game->font_ui, "Wordle Clone", cx, cy - 150, COLOR_BLACK);
+    render_text_simple(game->renderer, game->font_ui, " Wordle", cx, cy - 150, COLOR_BLACK);
 
     time_t t = time(NULL);
     struct tm *tm = localtime(&t);

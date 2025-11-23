@@ -10,7 +10,6 @@ int main(int argc, char* argv[]) {
 
     load_dictionary(&game);
 
-    // FIX: Use the new function name 'pick_word' and pass a default mode
     pick_word(&game, MODE_DAILY);
 
     init_keyboard(&game);
@@ -29,7 +28,6 @@ int main(int argc, char* argv[]) {
     while (game.running) {
         frameStart = SDL_GetTicks();
 
-        // FIX: Use dot operator (.) because 'game' is a struct, not a pointer
         SDL_GetWindowSize(game.window, &game.win_w, &game.win_h);
 
         process_input(&game);

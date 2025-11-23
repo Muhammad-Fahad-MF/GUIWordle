@@ -47,7 +47,7 @@ bool init_game(GameContext* game) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) return false;
     if (TTF_Init() == -1) return false;
 
-    game->window = SDL_CreateWindow("Wordle Clone", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+    game->window = SDL_CreateWindow(" Wordle", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                   DEFAULT_WIDTH, DEFAULT_HEIGHT,
                                   SDL_WINDOW_FULLSCREEN_DESKTOP | SDL_WINDOW_RESIZABLE);
     if (!game->window) return false;
