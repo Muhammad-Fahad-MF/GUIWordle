@@ -1,0 +1,3 @@
+D:/FAST/GUIWordle/cmake-build-debug-system/CMakeFiles/WordleSDL2.dir
+D:/FAST/GUIWordle/cmake-build-debug-system/CMakeFiles/edit_cache.dir
+D:/FAST/GUIWordle/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir
